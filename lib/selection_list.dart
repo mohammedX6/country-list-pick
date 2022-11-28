@@ -158,25 +158,25 @@ class _SelectionListState extends State<SelectionList> {
                   )
                 ],
               ),
-              if (isShow == true)
-                Align(
-                  alignment: Alignment.centerRight,
-                  child: GestureDetector(
-                    onVerticalDragUpdate: _onVerticalDragUpdate,
-                    onVerticalDragStart: _onVerticalDragStart,
-                    child: Container(
-                      height: 20.0 * 30,
-                      color: Colors.transparent,
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: []..addAll(
-                            List.generate(_alphabet.length,
-                                (index) => _getAlphabetItem(index)),
-                          ),
-                      ),
-                    ),
-                  ),
-                ),
+              // if (isShow == true)
+              //   Align(
+              //     alignment: Alignment.centerRight,
+              //     child: GestureDetector(
+              //       onVerticalDragUpdate: _onVerticalDragUpdate,
+              //       onVerticalDragStart: _onVerticalDragStart,
+              //       child: Container(
+              //         height: 20.0 * 30,
+              //         color: Colors.transparent,
+              //         child: Column(
+              //           mainAxisAlignment: MainAxisAlignment.center,
+              //           children: []..addAll(
+              //               List.generate(_alphabet.length,
+              //                   (index) => _getAlphabetItem(index)),
+              //             ),
+              //         ),
+              //       ),
+              //     ),
+              //   ),
             ],
           );
         }),
